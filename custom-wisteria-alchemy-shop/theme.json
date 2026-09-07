@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "custom-wisteria-alchemy-shop",
+  "name": "紫藤炼金工坊",
+  "brandSubtitle": "WISTERIA ALCHEMY",
+  "tagline": "在花影、烛光与星辉魔药间书写奇迹。",
+  "projectPrefix": "魔法课题 · ",
+  "projectLabel": "✦ 选择魔法课题",
+  "statusText": "ALCHEMY LIGHTS ONLINE",
+  "quote": "BREW IDEAS INTO WONDER",
+  "statusDecoration": "playing-card-suits",
+  "activitySummaryStyle": "clear-wisteria",
+  "composerActionStyle": "wisteria-action",
+  "settingsBackdrop": "conversation-balanced",
+  "usagePageStyle": "glass-panel",
+  "image": "background-original-v3.jpg",
+  "appearance": "light",
+  "art": {
+    "focusX": 0.5,
+    "focusY": 0.46,
+    "taskIntensity": 0.6,
+    "safeArea": "left",
+    "taskMode": "full"
+  },
+  "colors": {
+    "background": "#e7ddd8",
+    "panel": "#f3e8df",
+    "panelAlt": "#dfcfd8",
+    "accent": "#75558f",
+    "accentAlt": "#9a78b5",
+    "secondary": "#4f7f83",
+    "highlight": "#a97935",
+    "text": "#30243a",
+    "muted": "#706276",
+    "line": "rgba(94, 72, 102, 0.28)"
+  }
+}

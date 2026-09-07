@@ -1,0 +1,94 @@
+[data-ds-part="root"] {
+  background-color: transparent;
+  color: var(--ds-theme-color-text);
+  font-family: ui-serif, serif;
+}
+
+[data-ds-part="sidebar"] {
+  background-color: rgba(240, 229, 222, 0.66);
+  color: var(--ds-theme-color-text);
+  border-right-color: rgba(215, 190, 234, 0.30);
+  border-right-width: 1px;
+  border-right-style: solid;
+  backdrop-filter: blur(14px) saturate(1.08);
+  box-shadow: 8px 0 24px rgba(20, 12, 32, 0.22);
+}
+
+[data-ds-part="header"] {
+  background-color: transparent;
+  color: #ffffff;
+  border-bottom-color: transparent;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  backdrop-filter: blur(0px) saturate(1);
+}
+
+[data-ds-part="home-hero"] {
+  background-color: rgba(247, 238, 230, 0.84);
+  color: var(--ds-theme-color-text);
+  border-color: rgba(226, 206, 247, 0.34);
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(21, 12, 34, 0.26);
+  backdrop-filter: blur(18px) saturate(1.08);
+}
+
+[data-ds-part="project-list"] {
+  background-color: rgba(243, 232, 223, 0.82);
+  color: var(--ds-theme-color-text);
+  border-color: rgba(199, 172, 235, 0.24);
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 16px;
+  backdrop-filter: blur(16px) saturate(1.08);
+}
+
+[data-ds-part="thread"] {
+  background-color: transparent;
+  color: var(--ds-theme-color-text);
+}
+
+[data-ds-part="message"] {
+  background-color: rgba(243, 232, 223, 0.46);
+  color: var(--ds-theme-color-text);
+  border-color: rgba(255, 255, 255, 0.42);
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 16px;
+  box-shadow: 0 10px 28px rgba(48, 36, 58, 0.14), inset 0 1px 0 rgba(255, 255, 255, 0.42);
+  backdrop-filter: blur(20px) saturate(1.12) brightness(1.05);
+}
+
+[data-ds-part="composer"] {
+  background-color: rgba(247, 239, 232, 0.78);
+  color: var(--ds-theme-color-text);
+  border-color: rgba(199, 172, 235, 0.42);
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 18px;
+  box-shadow: 0 8px 28px rgba(20, 12, 32, 0.28);
+  backdrop-filter: blur(14px) saturate(1.08);
+  transition-property: border-color, box-shadow, background-color;
+  transition-duration: 180ms;
+}
+
+[data-ds-part="composer"]:focus-visible {
+  border-color: var(--ds-theme-color-accent);
+  box-shadow: 0 0 18px rgba(199, 172, 235, 0.38);
+}
+
+[data-ds-part="composer-toolbar"] {
+  color: var(--ds-theme-color-muted);
+}
+
+[data-ds-part="dialog"] {
+  background-color: rgba(247, 239, 232, 0.96);
+  color: var(--ds-theme-color-text);
+  border-color: rgba(226, 206, 247, 0.36);
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 20px;
+  box-shadow: 0 16px 40px rgba(20, 12, 32, 0.34);
+  backdrop-filter: blur(24px) saturate(1.10);
+}
