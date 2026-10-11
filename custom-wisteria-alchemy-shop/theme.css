@@ -5,7 +5,7 @@
 }
 
 [data-ds-part="sidebar"] {
-  background-color: rgba(240, 229, 222, 0.66);
+  background-color: rgba(247, 239, 232, 0.50);
   color: var(--ds-theme-color-text);
   border-right-color: rgba(215, 190, 234, 0.30);
   border-right-width: 1px;
@@ -16,7 +16,7 @@
 
 [data-ds-part="header"] {
   background-color: transparent;
-  color: #ffffff;
+  color: #30243a;
   border-bottom-color: transparent;
   border-bottom-width: 1px;
   border-bottom-style: solid;

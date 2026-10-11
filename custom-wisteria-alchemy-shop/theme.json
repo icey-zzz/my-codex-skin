@@ -13,7 +13,6 @@
   "composerActionStyle": "wisteria-action",
   "settingsBackdrop": "conversation-balanced",
   "usagePageStyle": "glass-panel",
-  "image": "background-original-v3.jpg",
   "appearance": "light",
   "art": {
     "focusX": 0.5,
@@ -31,7 +30,8 @@
     "secondary": "#4f7f83",
     "highlight": "#a97935",
     "text": "#30243a",
-    "muted": "#706276",
+    "muted": "#5C4E7A",
     "line": "rgba(94, 72, 102, 0.28)"
-  }
+  },
+  "image": "background-original-v3.jpg"
 }
